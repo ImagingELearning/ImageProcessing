@@ -27,7 +27,7 @@ Some first steps into using numpy arrays as images
 - Signal to noise ratio
 - Simulate neutron transmission with noise
 
-<a href="https://colab.research.google.com/github/ImagingELearning/resolution/blob/main/tutorials/03_Noise/NoiseInNeutronImages.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/03_Noise/NoiseInNeutronImages.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
