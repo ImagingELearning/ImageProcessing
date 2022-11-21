@@ -22,14 +22,12 @@ Some first steps into using numpy arrays as images
 </a>
        
 ## Noise in images
-- [ ] Test patterns, line pairs, Siemens star, line patterns
-- [ ] Edge response
-    - [ ] FWHM - fit Voigt function (approximate vs exact) https://scipython.com/book/chapter-8-scipy/examples/the-voigt-profile/ 
-    - [ ] MTF - levels and what they mean
-        - [ ] What does the FFT x-axis mean
-- [ ] Fourier ring correlation?
+- Noise in images
+- Noise types
+- Signal to noise ratio
+- Simulate neutron transmission with noise
 
-<a href="https://colab.research.google.com/github/ImagingELearning/resolution/blob/main/tutorials/03_Resolution/03_Resolution.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/resolution/blob/main/tutorials/03_Noise/NoiseInNeutronImages.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
