@@ -6,14 +6,14 @@ Some first steps into using numpy arrays as images
 - [ ] Math with arrays
 - [ ] Loading and saving images
 
-<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/02_WorkingWithImages/Introduction2Images.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/01_ArraysInPython/Assignment_01_Images.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 ## Working with images
 - [ ] Info
 
-<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/02_WorkingWithImages/Introduction2Images.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
        
