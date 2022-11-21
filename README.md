@@ -31,12 +31,8 @@ Some first steps into using numpy arrays as images
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-## Misc
-- [ ] Quantum efficiency 
-- [ ] Edge spread from different scintillator materials
-- [ ] Resolution and noise
+## Image filtering
+To be done
 
-
-```python
-
-```
+## Basic segmentation and morphology
+To be done
