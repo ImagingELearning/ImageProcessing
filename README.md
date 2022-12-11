@@ -32,7 +32,15 @@ Some first steps into using numpy arrays as images
 </a>
 
 ## Image filtering
-To be done
+Continuing the noise topic and look at methods to suppress noise and artefacts from the images
+- Linear filters using convolution
+- Spot cleaning algorithm using the median filter
+- 2D vs 3D filters
+- Edges after filtering
+
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/04_FilteringTechniques/04_FilteringTechniques.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## Basic segmentation and morphology
 To be done
