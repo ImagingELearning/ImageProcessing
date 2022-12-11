@@ -17,7 +17,7 @@ Some first steps into using numpy arrays as images
 - The histogram
 - Basic arithmetics
 
-<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/02_WorkingWithImages/Introduction2Images.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/02_WorkingWithImages/02_WorkingWithImages.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
        
