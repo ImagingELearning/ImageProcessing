@@ -43,4 +43,6 @@ Continuing the noise topic and look at methods to suppress noise and artefacts f
 </a>
 
 ## Basic segmentation and morphology
-To be done
+<a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/05_ThresholdingAndMorphology/05_BasicSegmentation.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
