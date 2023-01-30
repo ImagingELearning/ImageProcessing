@@ -43,6 +43,12 @@ Continuing the noise topic and look at methods to suppress noise and artefacts f
 </a>
 
 ## Basic segmentation and morphology
+Many image analysis tasks rely on identifying regions in the image that fulfil some criteria. The first operation you come across is thresholding  and later also morphological operators. In this tutorial you will learn about
+- Placing a threshold using the image histogram.
+- Algorithms to find the threshold.
+- Measuring the thresholding performance.
+- Morphological operations like erosion, dilation, opening, and closing.
+
 <a href="https://colab.research.google.com/github/ImagingELearning/ImageProcessing/blob/main/tutorials/05_ThresholdingAndMorphology/05_BasicSegmentation.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
