@@ -48,6 +48,21 @@ def magnifyRegion(img,roi, figsize, ax=None, cmap='gray',vmin=0,vmax=0,title='Or
 
 def showHitMap(gt,pr,ax=None) :
     if ax is None :
+        fig, ax = plt.subplots(1,1)
+    
+    m=4*gt*pr+ 2*gt*(1-pr) + 3*(1-gt)*pr + (1-gt)*(1-pr)
+    clst = np.array([[64,64,64],
+                     [51, 204, 255],
+                     [255, 0, 102],
+                     [255, 255,255]])/255.0
+    cmap = colors.ListedColormap(clst)
+    mi=ax.imshow(m, cmap=cmap,interpolation='none')
+    cb=plt.colorbar(mi,ax=ax,ticks=[1.35, 2.1, 2.85,3.6], shrink=0.8); 
+    cb.ax.set_yticklabels(['True Negative', 'False Negative', 'False Positive', 'True Positive']);
+    ax.set_title('Hit map')
+    
+def showHitConfusion(gt,pr,ax=None) :
+    if ax is None :
         fig, ax = plt.subplots(1,2,figsize=(12,4))
         
     m=4*gt*pr+ 2*gt*(1-pr) + 3*(1-gt)*pr + (1-gt)*(1-pr)
@@ -67,6 +82,21 @@ def showHitMap(gt,pr,ax=None) :
     ax[0].set_yticklabels(['Negative','Positive']);
     ax[0].set_ylabel('Ground Truth')
     ax[0].set_xlabel('Prediction');
+    
+def showConfusionMatrix(gt,pr,ax=None,classLabels=['Negative','Positive']) :
+    if ax is None :
+        fig, ax = plt.subplots(1)
+        
+    
+    cmat = confusion_matrix(gt.ravel(), pr.ravel(), normalize='all')
+    heatmap(cmat, annot=True,ax=ax,cbar_kws={"shrink": .5}); 
+    ax.set_title('Confusion matrix');
+    ax.set_aspect("equal")
+    ax.set_xticklabels(classLabels);
+    ax.set_yticklabels(classLabels);
+    ax.set_ylabel('Ground Truth')
+    ax.set_xlabel('Prediction');  
+    
 
 def showHitCases(gt,pr,ax=None, cmap='viridis') :
     if ax is None :
