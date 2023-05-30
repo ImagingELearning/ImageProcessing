@@ -1,4 +1,8 @@
 # Introduction to image processing with python
+<a href="https://github.com/ImagingELearning/resolution" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="48px" alt="Open repository"/>
+</a>
+
 
 ## Arrays in python
 Some first steps into using numpy arrays as images
